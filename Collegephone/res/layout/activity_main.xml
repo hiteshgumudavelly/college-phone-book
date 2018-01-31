@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="42dp"
+        android:text="Registration" />
+
+    <Button
+        android:id="@+id/btexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btview"
+        android:layout_below="@+id/btview"
+        android:layout_marginTop="30dp"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/btview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btreg"
+        android:layout_below="@+id/btreg"
+        android:layout_marginTop="37dp"
+        android:text="View" />
+
+</RelativeLayout>

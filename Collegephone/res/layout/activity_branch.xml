@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btcse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="21dp"
+        android:text="cse" />
+
+    <Button
+        android:id="@+id/bteee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btcse"
+        android:layout_below="@+id/btcse"
+        android:layout_marginTop="28dp"
+        android:text="eee" />
+
+    <Button
+        android:id="@+id/btece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bteee"
+        android:layout_below="@+id/bteee"
+        android:layout_marginTop="40dp"
+        android:text="ece" />
+
+    <Button
+        android:id="@+id/btmech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btece"
+        android:layout_below="@+id/btece"
+        android:layout_marginTop="26dp"
+        android:text="mech" />
+
+    <Button
+        android:id="@+id/btcivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btmech"
+        android:layout_below="@+id/btmech"
+        android:layout_marginTop="24dp"
+        android:text="civil" />
+
+    
+
+</RelativeLayout>

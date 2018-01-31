@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collegephoneapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_branch">BranchActivity</string>
+    <string name="title_activity_type">TypeActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+
+</resources>
